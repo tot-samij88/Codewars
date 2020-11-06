@@ -88,5 +88,42 @@
 
 # def divided_by(n): return "/%s" % n
 
-x, y, z = 1, 2, 3
-print(f'{x=} {y=} {z=}')
+# x, y, z = 1, 2, 3
+# print(f'{x=} {y=} {z=}')
+
+# import numpy as np
+# import matplotlib.pyplot as plt
+# x = np.arange(-10, 10.01, 0.01)
+# plt.plot(x, x**4)
+# plt.show()
+
+
+# def f():
+#    global z
+#    print('z is: ', z)
+#    z=50
+#    print('new value of global z is: ', z)
+
+# f()
+# print('Value of z is: ', z)
+
+# x = True
+# y = False
+# z = False
+# if not x or y:
+#     print(1)
+# elif not x or not y and z:
+#     print(2)
+# elif (not x or y) or (not y and x):
+#     print(3)
+# else:
+#     print(4)
+
+# name = "snow storm"
+# print("%s" % name[0:8:1])
+
+# a = " aaaaa "
+
+# print(a.upper())
+word = "abcdefghij"
+print(word[:3] + word[3:])
